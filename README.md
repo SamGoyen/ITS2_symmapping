@@ -1,3 +1,5 @@
+## It uses Chris' SymPortal ITS2 alignment as a reference and counts aligned reads to each taxa and sums them by Genus and makes some nice plots.
+
 ### ITS2 Symbiont Profiling by Mapping Pipeline (Sym-Mapping)
 
 This pipeline extracts ITS2 sequences from whole genome resequencing (WGS) or RNA-seq data and annotates them to the genus level based on similarity matching to ITS2 reference sequences from SymPortal (https://symportal.org/). This tool makes the most of non-targeted sequencing data and provides coarse-resolution symbiont information that can improve downstream analyses. Associated symbiont communities can be further resolved by using dedicated ITS2 sequencing analyses to derive ITS2 type profiles (e.g., using SymPortal)
